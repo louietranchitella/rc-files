@@ -120,7 +120,7 @@ alias la="ls -al"
 alias tmux="tmux -2"
 #PS1='\s-\v$ '
 #PS1='\s-\v \w$ '
-PS1='\e[1;32m\s-\v \\\W $ \e[0m'
+PS1='\[\e[1;32m\]\s-\v \\\W $ \[\e[0m\]'
 mcd ()
 {
     mkdir -p -- "$1" &&
